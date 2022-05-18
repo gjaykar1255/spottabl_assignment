@@ -1,0 +1,89 @@
+.suggestion-box{
+    margin-top:1rem;
+    border:1px solid rgb(230, 230, 250);;
+    width:80%;
+    border-radius:10px;
+    background-color: rgb(254, 254, 250);
+    position: absolute;
+   z-index: 2;
+    height:300px;
+    overflow-y:scroll;
+    padding-bottom: 2rem;
+    margin-bottom:3rem;
+}
+.inner-box{
+    display:flex;
+    padding: 1.3rem;
+    z-index: -1;
+    border-bottom: 1.7px solid rgb(230, 230, 250);
+}
+.inner-box:hover{
+    background-color: rgb(220, 220, 220);
+}
+#logo-name{
+    font-weight: bolder;
+    width:20px;
+    height: 20px;
+    background-color: rgb(216, 191, 216);
+    margin:0 0.6rem;
+    border-radius: 49%;
+    padding:0.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pro{
+    margin-right:1rem;
+    margin-left:0.6rem;
+}
+.dot{
+    font-size: 2rem;
+    margin-right:1rem;
+    opacity: 0.6;
+}
+.icon-figure{
+    font-size: 0.76rem;
+    color:black;
+}
+.inner-inner{
+    margin-left:1rem;
+}
+@media(max-width:481px){
+    .i{
+        display: flex;
+        flex-direction: column;
+    }
+    #profession{
+        margin:0;
+        margin-top:0.5rem;
+    }
+    .dot{
+        display:none
+    }
+        .mail {
+            
+            color: red;
+            opacity:0.89;
+        }
+}
+@media(max-width:407px) {
+    #name{
+        font-size:20px;
+    }
+         .mail {
+             font-size: 0.2rem;
+             color: red;
+         }
+         .inner-box{
+             padding-right:2.5rem;
+         }
+         .suggestion-box{
+             width:90%;
+             margin-top:6rem;
+         }
+}
+@media (max-width:768px) {
+    .suggestion-box {
+        margin-top: 2.5rem;
+    }
+}

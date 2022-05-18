@@ -1,0 +1,38 @@
+.selected{
+    width:fit-content;
+    display: flex;
+    position:absolute;
+    bottom:30%;
+    z-index: 2;
+    flex-wrap: wrap;
+    height:min-content
+}
+.x{
+    margin:0 0.5rem;
+    padding:0 0.3rem;
+    background-color: rgb(216, 191, 216);
+    border-radius:4px;
+}
+#selected-name{
+    font-size: 0.8rem;
+    margin-right:0.6rem;
+}
+.cross{
+    font-size: 0.5rem;
+}
+@media (max-width:768px) {
+.selected{
+    bottom:-45%;
+    margin-top:1rem;
+}
+}
+@media(max-width:565px){
+.selected{
+    bottom:-64%
+}
+.x{
+    font-size:0.2rem;
+    margin-right: 0.2rem;
+    margin-bottom:0.1rem;
+}
+}

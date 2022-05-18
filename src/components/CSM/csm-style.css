@@ -1,0 +1,59 @@
+.user-card{
+    border:2px solid rgb(230, 230, 250);
+    border-radius: 10px;
+    z-index: -1;
+}
+.card-user-details{
+    position: relative;
+    display: flex;
+    padding:1.3rem;
+    border-bottom:1.7px solid rgb(230,230,250);
+}
+.card-user-details:hover{
+    background-color: rgb(220, 220, 220);
+}
+#name-logo{
+    font-weight: bolder;
+    width:20px;
+    background-color: rgb(216, 191, 216);
+    padding:0.7rem;
+    margin-right:0.5rem;
+    border-radius:50%;
+}
+#name{
+    font-size:1rem;
+    font-weight: 700;
+    margin-bottom:.6rem;
+}
+#profession{
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+.delete-icon{
+    color: rgb(75,0,130);
+    font-size:1.9rem;
+    position: absolute;
+    right:3%;
+}
+.delete-icon:active{
+color:rgb(75, 0, 130,0.4);
+}
+.dot{
+    position: relative;
+    left:1%;
+    bottom:70%;
+}
+@media (max-width:768px) {
+    .user-card {
+        margin-top: 3rem;
+    }
+}
+@media(max-width:400px){
+    .delete-icon{
+        margin-left:1.3rem;
+        font-size:1.6rem;
+    }
+    .user-card{
+        margin-top:4rem;
+    }
+}
