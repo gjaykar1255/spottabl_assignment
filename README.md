@@ -9,7 +9,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   <li>styled-components</li>
   <li>Material-ui</li>
   
-## Here is a working live project hosted at netlify :
+## Here is a working live view of the project hosted at netlify :
    https://spottabl-project-assignment.netlify.app
 
 ## Screenshots
