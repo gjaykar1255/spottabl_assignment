@@ -12,7 +12,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Here is a working live project hosted at netlify :
    https://spottabl-project-assignment.netlify.app
 
-##Screenshots
+## Screenshots
 <li>Screenshots of the website in laptop</li>
 
 
