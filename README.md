@@ -2,7 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## <ul>Tech Stacks Used 
+  <li>Create React App (Boilerplate).</li>
+  <li>React</li> 
+  <li>Redux</li>
+  <li>styled-components</li>
+  </ul>
 
 In the project directory, you can run:
 
