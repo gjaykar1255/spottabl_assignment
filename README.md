@@ -1,4 +1,4 @@
-# Sottabl Frontend Assignment
+# Spottabl Frontend Assignment
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -30,7 +30,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ![Screenshot (170)](https://user-images.githubusercontent.com/95492981/169677339-2b99ffdd-8bb7-4604-9e41-87ba74420359.png)
 
-<li>Screenshots of the webssite in mobile</li>
+<li>Screenshots of the website in mobile</li>
 
 
 <div style="textAlign:'center'">
